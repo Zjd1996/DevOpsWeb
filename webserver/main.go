@@ -13,3 +13,9 @@ func main() {
 	http.HandleFunc("/", firstPage)
 	http.ListenAndServe(":8000", nil)
 }
+
+
+// 1. git pull
+// 2. git push
+// 3. cloud pull
+// 4. deploy
