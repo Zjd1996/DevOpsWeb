@@ -6,7 +6,7 @@ import (
 )
 
 func firstPage(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "<h1> Hello, this is my event page 1005!</h1>")
+	io.WriteString(w, "<h1> Hello, this is my event page 1010!</h1>")
 }
 
 func main() {
